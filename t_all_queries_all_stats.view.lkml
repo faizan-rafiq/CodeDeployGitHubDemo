@@ -35,7 +35,7 @@ view: t_all_queries_all_stats {
     sql: ${TABLE}.last_run ;;
   }
 
-  dimension: max {
+  measure: max {
     type: number
     sql: ${TABLE}.max ;;
   }
